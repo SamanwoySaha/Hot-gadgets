@@ -1,0 +1,481 @@
+/* == common css start == */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+}
+
+.container {
+    padding-bottom: 100px;
+}
+
+/* == common css end == */
+
+/* == navbar css start == */
+.navbar {
+    margin-top: 10px;
+}
+
+.navbar-brand img {
+    width: 150px;
+}
+
+.nav-link {
+    color: #707070;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-left: 30px;
+}
+
+/* == navbar css end == */
+
+/* == top-banner start == */
+#top-banner {
+    padding-top: 100px;
+}
+
+.heading {
+    font-size: 41px;
+    font-weight: 500;
+}
+
+.buy-now-button {
+    color: white;
+    background-color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: none;
+}
+
+.buy-now-button i {
+    padding-left: 5px;
+}
+
+.carousel-item p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #707070;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    display: none;
+}
+
+.carousel-indicators {
+    bottom: -40px;
+}
+
+.carousel-indicators li {
+    width: 16px;
+    height: 12px;
+    background-color: #CECECE;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    border: none;
+}
+
+.carousel-indicators li.active {
+    width: 45px;
+    height: 12px;
+    background-image: linear-gradient(120deg, #FF9C35, #FFD019);
+}
+
+/* == top-banner end == */
+
+/* == smartphone css start == */
+.sub-heading {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.see-all-link {
+    color: #FF9D00 !important;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.card {
+    border: none;
+    border-radius: 21px;
+    -webkit-border-radius: 21px;
+    -moz-border-radius: 21px;
+    -ms-border-radius: 21px;
+    -o-border-radius: 21px;
+    box-shadow: 0px 10px 30px #0000000D;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+
+.card:hover {
+    box-shadow: 0px 10px 30px #DDDDDD;
+}
+
+.card img {
+    width: 280px;
+    height: 280px;
+    padding: 25px 0 10px;
+}
+
+.card-title {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.card-footer {
+    background: none;
+    border-top: none;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+/* == smartphone css end == */
+
+/* == categories css start == */
+#categories.container {
+    padding-bottom: 50px;
+}
+
+.heading-underline {
+    width: 136px;
+    height: 10px;
+    background-image: linear-gradient(35deg, #FFD019, #FF9C35);
+    border-radius: 17px;
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    -ms-border-radius: 17px;
+    -o-border-radius: 17px;
+}
+
+.categories img {
+    width: 125px;
+    height: 125px;
+}
+
+.cat-image {
+    width: 296px;
+    height: 314px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 6px 64px #6D6D6D26;
+    border-radius: 40px 5px 20px 5px;
+    transform: scale(0.85);
+    -webkit-transform: scale(0.85);
+    -moz-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    -o-transform: scale(0.85);
+}
+
+/* == categories css end == */
+
+/* == footer css start == */
+footer p {
+    font-size: 12x;
+    padding-bottom: 20px;
+}
+
+/* == footer css end == */
+
+/* == responsive css start == */
+@media (max-width: 575px) {
+
+    /* == navbar css start == */
+    .navbar-brand {
+        position: relative;
+        top: 10px;
+        left: 15px;
+    }
+
+    .navbar-toggler {
+        position: relative;
+        top: 10px;
+        right: 15px;
+    }
+
+    .navbar-nav {
+        margin-top: 10px;
+    }
+
+    .nav-link {
+        background-color: #fff;
+        text-align: center;
+        margin: 0px 15px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        box-shadow: 0px 10px 30px #DDDDDD;
+    }
+
+    /* == navbar css end == */
+
+    /* == top-banner css start == */
+    #top-banner {
+        padding-top: 150px;
+    }
+
+    .heading {
+        font-size: 32px;
+        padding-bottom: 10px;
+    }
+
+    .carousel-item p {
+        font-size: 14px;
+        padding: 0 40px 10px;
+
+    }
+
+    .buy-now-button {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    /* == top-banner css end == */
+
+    /* == smartphone css start == */
+    .sub-heading {
+        font-size: 24px;
+        padding: 0 15px;
+    }
+
+    .see-all-link {
+        font-size: 18px;
+        padding: 0 15px;
+    }
+
+    .card {
+        margin: 0 15px;
+    }
+
+    .card-title {
+        font-size: 18px;
+    }
+
+    .card-text {
+        font-size: 14px;
+    }
+
+    /* == smartphone css end == */
+
+    /* == categories css start == */
+
+    .cat-image {
+        transform: scale(0.8);
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        -o-transform: scale(0.8);
+    }
+
+    /* == categories css end == */
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    /* == navbar css start == */
+    .navbar-brand {
+        position: relative;
+        top: 10px;
+        left: 15px;
+    }
+
+    .navbar-toggler {
+        position: relative;
+        top: 10px;
+        right: 10px;
+    }
+
+    .navbar-nav {
+        margin-top: 10px;
+    }
+
+    .nav-link {
+        background-color: #fff;
+        text-align: center;
+        margin: 0px 15px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        box-shadow: 0px 10px 30px #DDDDDD;
+    }
+
+    /* == navbar css end == */
+
+    /* == top-banner css start == */
+    #top-banner {
+        padding-top: 150px;
+    }
+
+    .heading {
+        font-size: 32px;
+        padding-bottom: 10px;
+    }
+
+    .carousel-item p {
+        font-size: 14px;
+        padding: 0 40px 10px;
+
+    }
+
+    .buy-now-button {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    /* == top-banner css end == */
+
+    /* == smartphone css start == */
+    .sub-heading {
+        font-size: 24px;
+        padding: 0 15px;
+    }
+
+    .see-all-link {
+        font-size: 18px;
+        padding: 0 15px;
+    }
+
+    .card {
+        margin: 0 15px;
+    }
+
+    .card-title {
+        font-size: 18px;
+    }
+
+    .card-text {
+        font-size: 14px;
+    }
+
+    /* == smartphone css end == */
+
+    /* == categories css start == */
+
+    .cat-image {
+        transform: scale(0.8);
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        -o-transform: scale(0.8);
+    }
+
+    /* == categories css end == */
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* == navbar css start == */
+    .navbar-brand {
+        position: relative;
+        top: 15px;
+        left: 15px;
+    }
+
+    .navbar-toggler {
+        position: relative;
+        top: 15px;
+        right: 5px;
+    }
+
+    .navbar-nav {
+        margin-top: 10px;
+    }
+
+    .nav-link {
+        background-color: #fff;
+        text-align: center;
+        margin: 0px 15px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        box-shadow: 0px 10px 30px #DDDDDD;
+    }
+
+    /* == navbar css end == */
+
+    /* == top-banner css start == */
+    #top-banner {
+        padding-top: 150px;
+    }
+
+    .heading {
+        font-size: 35px;
+    }
+
+    .carousel-item p {
+        font-size: 16px;
+
+    }
+
+    .buy-now-button {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    /* == top-banner css end == */
+
+    /* == smartphone css start == */
+    .sub-heading {
+        font-size: 24px;
+    }
+
+    .see-all-link {
+        font-size: 18px;
+    }
+
+    .card {
+        height: 600px;
+    }
+
+    .card-title {
+        font-size: 22px;
+    }
+
+    .card-text {
+        font-size: 14px;
+    }
+
+    /* == smartphone css end == */
+
+    /* == laptop css start == */
+    #laptop .card {
+        height: 570px;
+    }
+
+    /* == laptop css end == */
+
+    /* == categories css start == */
+
+    .cat-image {
+        transform: scale(0.8);
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        -o-transform: scale(0.8);
+        width: 200px;
+        height: 212px;
+    }
+
+    /* == categories css end == */
+
+}
+
+/* == responsive css end == */
